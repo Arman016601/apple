@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.with {
+  max-width: 2140px;
+}
+
+header {
+  background-color: rgb(197, 194, 194);
+  padding: 10px;
+}
+header .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+header .header .right {
+  display: flex;
+  gap: 30px;
+}
+header .header .inside {
+  display: flex;
+  gap: 10px;
+}
+header .header .header {
+  display: flex;
+}
+
+.one {
+  display: flex;
+  justify-content: space-around;
+}
+.one .left-1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+.one .left-1 h1 {
+  color: #008ECC;
+  font-size: 36px;
+}
+.one .right-1 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+.one .right-1 .right-2 {
+  display: flex;
+}
+.one .search {
+  display: flex;
+  gap: 20px;
+}
+
+.navigetion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.navigetion .first-text {
+  color: white;
+  background-color: #008ECC;
+}
+.navigetion div {
+  display: flex;
+  gap: 10px;
+  background-color: #e1eaee;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: black;
+  margin: 10px;
+  white-space: nowrap;
+}
+
+main {
+  background-color: #212844;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 40px;
+  position: relative;
+  background-image: url(Img/img3.png);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+}
+main p {
+  color: white;
+  display: flex;
+  justify-content: start;
+  font-size: 30px;
+  margin: 20px;
+}
+main h2 {
+  color: white;
+  font-size: 63px;
+  margin: 20px;
+}
+main .points {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+main .sircle-one {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+main .sircle-two {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+main .arrow {
+  background-color: #F3F9FB;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+main .img-tree {
+  display: flex;
+  justify-content: end;
+}
+
+.after-main {
+  display: flex;
+  margin: 40px;
+  font-size: 24px;
+  gap: 6px;
+}
+.after-main .Smart {
+  color: #008ECC;
+}
+
+.hr {
+  width: 378px;
+  margin: 40px;
+  border-color: #008ECC;
+}
+.hr hr {
+  color: #008ECC;
+}
+
+.sales {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.sales .after-hr {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 10px;
+}
+.sales .after-hr .dis {
+  text-decoration: line-through;
+}
+.sales .after-hr .off {
+  background-color: #f5f5f5;
+  padding: 0px 60px;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.sales .after-hr .off .san {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  background-color: #008ECC;
+  border-radius: 0 16px;
+  color: white;
+}
+.sales .after-hr .off img {
+  padding: 10px;
+}
+.sales .after-hr .discount {
+  display: flex;
+  gap: 10px;
+}
+.sales .save {
+  color: green;
+  display: flex;
+  margin: 4px;
+}
+
+.Shop {
+  display: flex;
+  margin: 40px;
+  font-size: 24px;
+  gap: 6px;
+}
+.Shop .top {
+  color: #008ECC;
+}
+
+.hr {
+  width: 378px;
+  margin: 40px;
+  border-color: #008ECC;
+}
+.hr hr {
+  color: #008ECC;
+}
+
+.Imges {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+.Imges .nkar {
+  height: 132px;
+  width: 132px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Imges .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Imges .text p {
+  margin: 10px;
+}
+.Imges .border {
+  height: 132px;
+  width: 132px;
+  border-radius: 50%;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
+.phones {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.phones .iphone {
+  width: 300px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-image: url(Img/img16.png);
+  background-color: #212844;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  flex-direction: column;
+  background-position: top right;
+  padding: 40px 60px;
+  border-radius: 20px;
+}
+.phones .iphone .svg-iphone {
+  background-color: white;
+  width: 20%;
+  border-radius: 40px;
+  justify-content: center;
+  display: flex;
+  padding: 6px;
+  margin: 4px;
+}
+.phones .iphone p {
+  color: white;
+}
+.phones .ip {
+  background: gray;
+  width: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  margin: 4px;
+}
+.phones .ip p {
+  color: #212844;
+  margin: 4px;
+}
+.phones .realme {
+  background-image: url(Img/img17.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: top right;
+  background-color: #FFF3CC;
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.phones .realme .svg-realme {
+  padding: 4px;
+}
+.phones .realme .RE {
+  background-color: #F6DE8D;
+  width: 37%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4px;
+}
+.phones .realme .RE p {
+  font-size: 24px;
+}
+.phones .xiaomi {
+  background-color: #FFECDF;
+  background-image: url(Img/img19.png);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: top right;
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pointes {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+}
+.last .fruits {
+  background-color: #F5F5F5;
+  padding: 10px;
+  border-radius: 20px;
+}
+.last .texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last .texts p {
+  font-size: 16px;
+}
+.last .texts .big {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #008ECC;
+}
+footer .finish {
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .finish .section-one {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20px;
+  gap: 20px;
+  margin: 20px;
+}
+footer .finish .section-one p {
+  color: white;
+}
+footer .finish .section-one .cont {
+  font-size: 20px;
+}
+footer .finish .app {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+footer .call {
+  display: flex;
+  gap: 10px;
+}
+footer .footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer h6 {
+  font-size: 20px;
+}
+footer .footer hr {
+  height: 2px;
+  color: white;
+  background-color: white;
+  border-style: none;
+}
+footer .last-one {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

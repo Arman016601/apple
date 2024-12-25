@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.with {
+    max-width: 2140px;
+}
+
+header {
+    background-color: rgb(197, 194, 194);
+    padding: 10px;
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+
+
+
+        .right {
+            display: flex;
+            gap: 30px;
+        }
+
+        .inside {
+            display: flex;
+            gap: 10px;
+        }
+
+        .header {
+            display: flex;
+        }
+    }
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+
+    .left-1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 20px;
+
+        h1 {
+            color: #008ECC;
+            font-size: 36px;
+        }
+    }
+
+    .right-1 {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        gap: 20px;
+
+        .right-2 {
+            display: flex;
+        }
+    }
+
+    .search {
+        display: flex;
+        gap: 20px;
+    }
+
+}
+
+
+
+.navigetion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+
+    .first-text {
+        color: white;
+        background-color: #008ECC;
+
+    }
+
+    div {
+        display: flex;
+        gap: 10px;
+        background-color: #e1eaee;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: black;
+        margin: 10px;
+        white-space: nowrap;
+    }
+
+}
+
+main {
+    background-color: #212844;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 40px;
+    position: relative;
+    background-image: url(Img/img3.png);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+
+    p {
+        color: white;
+        display: flex;
+        justify-content: start;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    h2 {
+        color: white;
+        font-size: 63px;
+        margin: 20px;
+    }
+
+    .points {
+        margin-top: 40px;
+        margin-left: 20px;
+
+
+    }
+
+    .sircle-one {
+
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .sircle-two {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(50%, -50%);
+
+
+    }
+
+    .arrow {
+        background-color: #F3F9FB;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .img-tree {
+        display: flex;
+        justify-content: end;
+
+    }
+}
+
+.after-main {
+    display: flex;
+    margin: 40px;
+    font-size: 24px;
+    gap: 6px;
+
+
+
+    .Smart {
+        color: #008ECC;
+    }
+}
+
+.hr {
+    width: 378px;
+    margin: 40px;
+
+    border-color: #008ECC;
+
+    hr {
+        color: #008ECC;
+    }
+}
+
+.sales {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+    .after-hr {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        gap: 10px;
+
+        .dis {
+
+            text-decoration: line-through;
+        }
+
+
+
+        .off {
+            background-color: #f5f5f5;
+            padding: 0px 60px;
+            border-radius: 20px;
+            margin: 10px;
+            display: flex;
+            justify-content: end;
+            position: relative;
+
+            .san {
+                position: absolute;
+                right: 0;
+                top: 0;
+                display: flex;
+                flex-direction: column;
+                padding: 4px;
+                background-color: #008ECC;
+                border-radius: 0 16px;
+                color: white;
+            }
+
+            img {
+                padding: 10px;
+            }
+
+
+
+
+        }
+
+        .discount {
+            display: flex;
+            gap: 10px;
+
+
+
+        }
+    }
+
+    .save {
+        color: green;
+        display: flex;
+        margin: 4px;
+    }
+
+}
+
+.Shop {
+    display: flex;
+    margin: 40px;
+    font-size: 24px;
+    gap: 6px;
+
+    .top {
+        color: #008ECC;
+    }
+}
+
+.hr {
+    width: 378px;
+    margin: 40px;
+
+    border-color: #008ECC;
+
+    hr {
+        color: #008ECC;
+    }
+}
+
+.Imges {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+
+
+
+    .nkar {
+        height: 132px;
+        width: 132px;
+        border-radius: 50%;
+        background-color: #F5F5F5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            margin: 10px;
+        }
+    }
+
+    .border {
+        height: 132px;
+        width: 132px;
+        border-radius: 50%;
+        border: 1px solid blue;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.phones {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+
+
+
+    .iphone {
+        width: 300px;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-image: url(Img/img16.png);
+        background-color: #212844;
+        display: flex;
+        gap: 20px;
+        position: relative;
+        flex-direction: column;
+        background-position: top right;
+        padding: 40px 60px;
+
+        border-radius: 20px;
+
+        .svg-iphone {
+            background-color: white;
+            width: 20%;
+            border-radius: 40px;
+            justify-content: center;
+            display: flex;
+            padding: 6px;
+            margin: 4px;
+        }
+
+        p {
+            color: white;
+        }
+
+
+    }
+
+    .ip {
+        background: gray;
+        width: 70px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 4px;
+        margin: 4px;
+
+        p {
+            color: #212844;
+            margin: 4px;
+        }
+    }
+
+    .realme {
+        background-image: url(Img/img17.png);
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: top right;
+        background-color: #FFF3CC;
+        width: 300px;
+        height: 150px;
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .svg-realme {
+            padding: 4px;
+        }
+
+        .RE {
+            background-color: #F6DE8D;
+            width: 37%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            padding: 4px;
+
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+
+    .xiaomi {
+        background-color: #FFECDF;
+        background-image: url(Img/img19.png);
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: top right;
+        width: 300px;
+        height: 150px;
+        border-radius: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+}
+
+.pointes {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+
+
+    .fruits {
+        background-color: #F5F5F5;
+        padding: 10px;
+        border-radius: 20px;
+
+
+
+
+    }
+
+    .texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        p {
+            font-size: 16px;
+        }
+
+        .big {
+            font-size: 20px;
+        }
+    }
+
+}
+
+footer {
+    background-color: #008ECC;
+
+
+    .finish {
+        padding: 40px;
+        display: flex;
+        justify-content: space-around;
+
+        .section-one {
+            display: flex;
+            flex-direction: column;
+            padding-inline: 20px;
+            gap: 20px;
+            margin: 20px;
+
+            p {
+                color: white;
+            }
+
+            .cont {
+                font-size: 20px;
+            }
+
+        }
+
+        .app {
+            display: flex;
+            gap: 20px;
+            padding-top: 20px;
+        }
+
+
+    }
+
+    .call {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .footer {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h6 {
+            font-size: 20px;
+        }
+
+        hr {
+            height: 2px;
+            color: white;
+            background-color: white;
+            border-style: none;
+        }
+    }
+
+    .last-one {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+    }
+}
